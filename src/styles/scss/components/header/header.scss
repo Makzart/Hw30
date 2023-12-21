@@ -1,0 +1,16 @@
+.header  {
+  &-top__contact {
+    span{
+      font-size: 13px;
+    }
+  }
+  &-top__lang {
+    span{
+      font-size: 13px;
+    }
+  }
+  a, span {
+    text-decoration: none;
+    color: $primary-color;
+  }
+}

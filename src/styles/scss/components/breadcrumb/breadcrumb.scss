@@ -1,0 +1,16 @@
+.breadcrumbs {
+  a{
+    color: $main-link-color;
+    transition: color 0.3s;
+    &:hover {
+      color: $main-link-color-active;
+    }
+  }
+  span{
+    color: $main-link-color;
+  }
+  h1 {
+    font-size: 28px;
+    font-family: Lato-Bold, sans-serif;
+  }
+}
