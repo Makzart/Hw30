@@ -121,7 +121,7 @@
                 <div class="row justify-content-between">
                     <div class="col-3">
                         <div class="dropdown">
-                            <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="btn dropdown-toggle shadow-sm" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span>Display Wall</span>
                             </a>
 
@@ -135,7 +135,7 @@
 
                     <div class="col-9 input-container">
                         <form class="d-flex" role="search">
-                            <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control search-input shadow-sm" type="search" placeholder="Search" aria-label="Search">
                             <a class="icon-search" href="#"><i class="bi bi-search fs-6"></i></a>
                         </form>
                     </div>
@@ -145,10 +145,10 @@
             <div class="content__result-filter">
                 <div class="row">
                     <div class="col-3">
-                        <div class="slide-left bg-white">
-                            <div class="row justify-content-between mt-1 mb-3">
+                        <div class="slide-left bg-white shadow-sm">
+                            <div class="row justify-content-center mt-1 mb-3">
                                 <div class="col-5">
-                                    <span class="mb-0 ms-1">23 Results</span>
+                                    <span class="mb-0 ms-2">23 Results</span>
                                 </div>
                                 <div class="col-6">
                                     <a href="#">
@@ -157,26 +157,414 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="row justify-content-between">
-                                    <div class="col-8">
-                                        <h5 class="mb-3">Subcategory</h5>
-                                    </div>
-                                    <div class="col-2">
-                                        <i class="bi bi-caret-up-fill text-secondary fs-6"></i>
-                                    </div>
+                            <div class="accordion slide-left__accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item border-0 border-bottom">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button text-primary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSubcategory" aria-expanded="true" aria-controls="panelsStayOpen-collapseSubcategory">
+                                            Subcategory
+                                        </button>
+                                    </h5>
+                                    <div id="panelsStayOpen-collapseSubcategory" class="accordion-collapse collapse show">
+                                        <div class="accordion-body py-0 mb-2">
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckXpressions" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckXpressions">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckXpressions">
+                                                    <span class="me-2">Xpressions</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckXtension" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckXtension">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckXtension">
+                                                    <span class="me-2">Xtension</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckVirage" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckVirage">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckVirage">
+                                                    <span class="me-2">Virage</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckContour" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckContour">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckContour">
+                                                    <span class="me-2">Contour</span>
+                                                    <span class="text-black-50">(4)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckXperience" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckXperience">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckXperience">
+                                                    <span class="me-2">Xperience</span>
+                                                    <span class="text-black-50">(4)</span>
+                                                </label>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <a href="#">
-                                        <div class="btn-group fs-5" role="group" aria-label="Basic checkbox toggle button group">
-                                            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                                            <label class="btn btn-outline-primary" for="btncheck1"><i class="bi bi-check2"></i></label>
+                                <div class="accordion-item border-0 border-bottom">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed text-primary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseType" aria-expanded="false" aria-controls="panelsStayOpen-collapseType">
+                                            Type
+                                        </button>
+                                    </h5>
+                                    <div id="panelsStayOpen-collapseType" class="accordion-collapse collapse">
+                                        <div class="accordion-body py-0 mb-2">
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckPop-up" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckPop-up">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckPop-up">
+                                                    <span class="me-2">Pop-up</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckTubar" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckTubar">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckTubar">
+                                                    <span class="me-2">Tubar</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckTable" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckTable">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckTable">
+                                                    <span class="me-2">Table top</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
                                         </div>
-                                    </a>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 border-bottom">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed text-primary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFeatures" aria-expanded="false" aria-controls="panelsStayOpen-collapseFeatures">
+                                            Features
+                                        </button>
+                                    </h5>
+                                    <div id="panelsStayOpen-collapseFeatures" class="accordion-collapse collapse">
+                                        <div class="accordion-body py-0 mb-2">
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckBacklit" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckBacklit">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckBacklit">
+                                                    <span class="me-2">Backlit</span>
+                                                    <span class="text-black-50">(7)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckTV" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckTV">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckTV">
+                                                    <span class="me-2">TV Mount</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckShelving" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckShelving">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckShelving">
+                                                    <span class="me-2">Shelving</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckArch" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckArch">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckArch">
+                                                    <span class="me-2">Arch</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckDouble-sided" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckDouble-sided">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckDouble-sided">
+                                                    <span class="me-2">Double sided</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 border-bottom">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed text-primary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseWidth" aria-expanded="false" aria-controls="panelsStayOpen-collapseWidth">
+                                            Width
+                                        </button>
+                                    </h5>
+                                    <div id="panelsStayOpen-collapseWidth" class="accordion-collapse collapse">
+                                        <div class="accordion-body d-flex flex-column py-0 mb-2">
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheck2.5" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheck2.5">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheck2.5">
+                                                    <span class="me-2">2.5</span>
+                                                    <span class="text-black-50">(7)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheck5">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheck5">
+                                                    <span class="me-2">5</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheck8">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheck8">
+                                                    <span class="me-2">8</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheck10">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheck10">
+                                                    <span class="me-2">10</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheck20" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheck20">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheck20">
+                                                    <span class="me-2">20</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 border-bottom">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed text-primary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseHeight" aria-expanded="false" aria-controls="panelsStayOpen-collapseHeight">
+                                            Height
+                                        </button>
+                                    </h5>
+                                    <div id="panelsStayOpen-collapseHeight" class="accordion-collapse collapse">
+                                        <div class="accordion-body d-flex flex-column py-0 mb-2">
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheck4">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheck4">
+                                                    <span class="me-2">4</span>
+                                                    <span class="text-black-50">(7)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheck-h8" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheck-h8">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheck-h8">
+                                                    <span class="me-2">8</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheck12" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheck12">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheck12">
+                                                    <span class="me-2">12</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 border-bottom">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed text-primary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseForm" aria-expanded="false" aria-controls="panelsStayOpen-collapseForm">
+                                            Form
+                                        </button>
+                                    </h5>
+                                    <div id="panelsStayOpen-collapseForm" class="accordion-collapse collapse">
+                                        <div class="accordion-body py-0 mb-2">
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckStraight" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckStraight">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckStraight">
+                                                    <span class="me-2">Straight</span>
+                                                    <span class="text-black-50">(7)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckCurved" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckCurved">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckCurved">
+                                                    <span class="me-2">Curved</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 border-bottom">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed text-primary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsePrice" aria-expanded="false" aria-controls="panelsStayOpen-collapsePrice">
+                                            Price Range
+                                        </button>
+                                    </h5>
+                                    <div id="panelsStayOpen-collapsePrice" class="accordion-collapse collapse">
+                                        <div class="accordion-body py-0 mb-2">
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckPrice1" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckPrice1">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckPrice1">
+                                                    <span class="me-2">550-699</span>
+                                                    <span class="text-black-50">(27)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckPrice2" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckPrice2">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckPrice2">
+                                                    <span class="me-2">700-999</span>
+                                                    <span class="text-black-50">(38)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckPrice3" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckPrice3">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckPrice3">
+                                                    <span class="me-2">1000-1999</span>
+                                                    <span class="text-black-50">(48)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckPrice4" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckPrice4">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckPrice4">
+                                                    <span class="me-2">2000-3999</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckPrice5" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckPrice5">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckPrice5">
+                                                    <span class="me-2">4000+</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed text-primary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSet-up" aria-expanded="false" aria-controls="panelsStayOpen-collapseSet-up">
+                                            Set-up Time
+                                        </button>
+                                    </h5>
+                                    <div id="panelsStayOpen-collapseSet-up" class="accordion-collapse collapse">
+                                        <div class="accordion-body py-0 mb-2">
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckFast" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckFast">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckFast">
+                                                    <span class="me-2">1+ (Fast)</span>
+                                                    <span class="text-black-50">(27)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckEasy" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckEasy">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckEasy">
+                                                    <span class="me-2">5+ (Easy)</span>
+                                                    <span class="text-black-50">(38)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0 mb-2" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckAverage" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckAverage">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckAverage">
+                                                    <span class="me-2">10+ (Average)</span>
+                                                    <span class="text-black-50">(48)</span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block border-0 py-0" role="group" aria-label="Basic checkbox toggle button group">
+                                                <input type="checkbox" class="btn-check" id="btncheckExpert" autocomplete="off">
+                                                <label class="btn btn-outline-primary btn-label me-2 position-relative" for="btncheckExpert">
+                                                    <i class="bi bi-check2 position-absolute"></i>
+                                                </label>
+                                                <label for="btncheckExpert">
+                                                    <span class="me-2">20+ (Expert)</span>
+                                                    <span class="text-black-50">(8)</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

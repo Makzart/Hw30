@@ -5,7 +5,12 @@ $container-max-widths: (
         xl: 1060px,
         xxl: 1120px
 );
+$blue: #2268B4;
+$accordion-icon-width: 10px;
+$primary-bg-subtle: none;
 $breadcrumb-divider: quote("—");
+$input-btn-padding-y: 10px;
+$input-btn-padding-x: 10px;
 $bootstrap-icons-font-dir: './../../../node_modules/bootstrap-icons/font/fonts';
 @import "./../../../../node_modules/bootstrap/scss/bootstrap";
 @import "./../../../../node_modules/bootstrap-icons/font/bootstrap-icons";
