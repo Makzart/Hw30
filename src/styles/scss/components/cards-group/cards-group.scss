@@ -1,0 +1,19 @@
+.products {
+  .card {
+    border-radius: 16px;
+    h5{
+      font-size: 17px;
+      font-family: Lato-Bold, sans-serif;
+      color: $primary-color;
+    }
+    p{
+      font-family: Lato-Regular, sans-serif;
+      font-size: 17px;
+      color: $primary-color;
+    }
+  }
+  .tag-new {
+    right: 10px;
+    top: 10px;
+  }
+}

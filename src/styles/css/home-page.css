@@ -20147,7 +20147,7 @@ a {
   position: relative;
 }
 .content__input-group .search-input {
-  padding: 13px 20px 13px 39px;
+  padding: 13px 70px 13px 39px;
   border-radius: 54px;
 }
 .content__input-group .search-input::placeholder {
@@ -20188,6 +20188,49 @@ a {
 .slide-left__accordion .btn-label i {
   top: -2px;
   left: 2px;
+}
+
+.products .card {
+  border-radius: 16px;
+}
+.products .card h5, .products .card .h5 {
+  font-size: 17px;
+  font-family: Lato-Bold, sans-serif;
+  color: #17181A;
+}
+.products .card p {
+  font-family: Lato-Regular, sans-serif;
+  font-size: 17px;
+  color: #17181A;
+}
+.products .tag-new {
+  right: 10px;
+  top: 10px;
+}
+
+.navigation button {
+  width: 92px;
+  height: 36px;
+  border-radius: 100px;
+  background-color: #99C63C;
+}
+.navigation .btn-disabled {
+  background-color: #515151;
+}
+.navigation i {
+  top: -2px;
+  left: 35px;
+}
+.navigation span {
+  color: #515151;
+}
+.navigation .btn-dropdown {
+  border-radius: 25px;
+}
+.navigation .btn-dropdown span {
+  font-size: 17px;
+  font-family: Lato-Bold, sans-serif;
+  color: #17181A;
 }
 
 /*# sourceMappingURL=home-page.css.map */

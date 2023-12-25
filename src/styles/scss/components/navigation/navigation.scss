@@ -1,0 +1,26 @@
+.navigation {
+  button{
+    width: 92px;
+    height: 36px;
+    border-radius: 100px;
+    background-color: #99C63C;
+  }
+  .btn-disabled {
+    background-color: $gray-dark;
+  }
+  i {
+    top: -2px;
+    left: 35px;
+  }
+  span {
+    color: $gray-dark;
+  }
+  .btn-dropdown {
+    border-radius: 25px;
+    span {
+      font-size: 17px;
+      font-family: Lato-Bold, sans-serif;
+      color: $primary-color;
+    }
+  }
+}
