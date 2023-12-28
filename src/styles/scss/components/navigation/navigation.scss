@@ -17,9 +17,21 @@
   }
   .btn-dropdown {
     border-radius: 25px;
+    padding: 3px 35px;
     span {
       font-size: 17px;
       font-family: Lato-Bold, sans-serif;
+      color: $primary-color;
+    }
+  }
+  .current-page {
+    padding: 3px 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    span {
+      font-family: Lato-Bold, sans-serif;
+      font-size: 17px;
       color: $primary-color;
     }
   }

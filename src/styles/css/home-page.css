@@ -20141,13 +20141,13 @@ a {
   background: white;
 }
 .content__input-group .dropdown a span {
-  margin-right: 77px;
+  margin-right: 110px;
 }
 .content__input-group .input-container {
   position: relative;
 }
 .content__input-group .search-input {
-  padding: 13px 70px 13px 39px;
+  padding: 15px 70px 15px 39px;
   border-radius: 54px;
 }
 .content__input-group .search-input::placeholder {
@@ -20192,6 +20192,11 @@ a {
 
 .products .card {
   border-radius: 16px;
+  transition: box-shadow 0.3s;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.products .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(166, 206, 82, 0.42);
 }
 .products .card h5, .products .card .h5 {
   font-size: 17px;
@@ -20206,6 +20211,28 @@ a {
 .products .tag-new {
   right: 10px;
   top: 10px;
+}
+.products .card .hover-image-wrapper {
+  position: relative;
+  max-height: 264px;
+  min-height: 264px;
+  overflow: hidden;
+}
+.products .card .hover-image-wrapper img {
+  position: absolute;
+  transition: 0.3s;
+}
+.products .card .hover-image-wrapper img:first-child {
+  right: 0;
+}
+.products .card .hover-image-wrapper img:last-child {
+  right: -100%;
+}
+.products .card:hover .hover-image-wrapper img:first-child {
+  right: 100%;
+}
+.products .card:hover .hover-image-wrapper img:last-child {
+  right: 0;
 }
 
 .navigation button {
@@ -20226,10 +20253,22 @@ a {
 }
 .navigation .btn-dropdown {
   border-radius: 25px;
+  padding: 3px 35px;
 }
 .navigation .btn-dropdown span {
   font-size: 17px;
   font-family: Lato-Bold, sans-serif;
+  color: #17181A;
+}
+.navigation .current-page {
+  padding: 3px 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.navigation .current-page span {
+  font-family: Lato-Bold, sans-serif;
+  font-size: 17px;
   color: #17181A;
 }
 

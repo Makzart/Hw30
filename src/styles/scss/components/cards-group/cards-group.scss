@@ -1,6 +1,11 @@
 .products {
   .card {
     border-radius: 16px;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 8px 16px rgba($black, .15);
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(166, 206, 82, 0.42);
+    }
     h5{
       font-size: 17px;
       font-family: Lato-Bold, sans-serif;
@@ -15,5 +20,37 @@
   .tag-new {
     right: 10px;
     top: 10px;
+  }
+
+  .card {
+
+    .hover-image-wrapper {
+      position: relative;
+      max-height: 264px;
+      min-height: 264px;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        transition: .3s;
+
+        &:first-child {
+          right: 0;
+        }
+
+        &:last-child {
+          right: -100%;
+        }
+      }
+    }
+    &:hover .hover-image-wrapper img {
+      &:first-child {
+        right: 100%;
+      }
+
+      &:last-child {
+        right: 0;
+      }
+    }
   }
 }
